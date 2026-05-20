@@ -83,7 +83,8 @@
       `<span class="pill">${escapeHtml(ev.category)}</span>`,
       ev.startTime ? `<span>${escapeHtml(ev.startTime)}${ev.endTime ? ' to ' + escapeHtml(ev.endTime) : ''}</span>` : '',
       ev.location ? `<span>${escapeHtml(ev.location)}</span>` : '',
-      ev.paymentRequired ? `<span class="pill" style="background:#fff4e8;border-color:#e8a76a;color:#9b5a14;">$${ev.pricePerPerson} per person</span>` : ''
+      ev.paymentRequired ? `<span class="pill pill-paid">$${ev.pricePerPerson} per person</span>` : '',
+      ev.rsvpRequired && !ev.isComingSoon ? `<span class="pill pill-rsvp">RSVP required</span>` : ''
     ].filter(Boolean).join('');
 
     return `
