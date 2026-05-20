@@ -51,17 +51,17 @@ h1, h2, h3, h4 {
   line-height: 1.08;
   font-feature-settings: 'ss01';
 }
-h1 { font-size: clamp(44px, 6.4vw, 78px); font-weight: 400; letter-spacing: -0.02em; }
-h1 em { font-style: italic; font-weight: 400; }
-h2 { font-size: clamp(30px, 4.2vw, 48px); font-weight: 500; letter-spacing: -0.015em; }
-h2 em { font-style: italic; }
-h3 { font-size: clamp(22px, 2.6vw, 28px); font-weight: 500; }
+h1 { font-size: clamp(44px, 6.4vw, 78px); font-weight: 600; letter-spacing: -0.02em; }
+h1 em { font-style: italic; font-weight: 600; }
+h2 { font-size: clamp(30px, 4.2vw, 48px); font-weight: 600; letter-spacing: -0.015em; }
+h2 em { font-style: italic; font-weight: 600; }
+h3 { font-size: clamp(22px, 2.6vw, 28px); font-weight: 600; }
 h4 { font-family: 'Inter', sans-serif; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.14em; }
 p { font-size: 18px; }
 p.lead {
   font-family: 'Fraunces', serif;
   font-size: clamp(20px, 2.2vw, 26px);
-  font-weight: 400; line-height: 1.5;
+  font-weight: 500; line-height: 1.5;
   color: var(--ink-2);
   letter-spacing: -0.005em;
 }
@@ -191,21 +191,21 @@ p.lead {
   color: var(--paper);
   font-family: 'Fraunces', serif;
   font-size: clamp(54px, 9vw, 116px);
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: -0.025em;
   line-height: 0.98;
   margin: 0 0 32px;
   max-width: 14ch;
 }
 .hero h1 em {
-  font-style: italic; font-weight: 300;
+  font-style: italic; font-weight: 600;
   color: var(--gold-soft);
 }
 .hero-sub {
   font-family: 'Fraunces', serif;
   font-size: clamp(19px, 1.5vw, 23px);
-  color: rgba(255,253,247,0.88);
-  font-weight: 300;
+  color: rgba(255,253,247,0.92);
+  font-weight: 500;
   max-width: 56ch; line-height: 1.55;
   margin-bottom: 44px;
   letter-spacing: -0.005em;
@@ -372,7 +372,7 @@ p.lead {
 }
 .event-detail-inner::before { content: ''; }
 .event-desc {
-  font-family: 'Fraunces', serif; font-weight: 400;
+  font-family: 'Fraunces', serif; font-weight: 500;
   font-size: 18px; line-height: 1.65; color: var(--ink-2);
   letter-spacing: -0.005em;
 }
@@ -463,9 +463,9 @@ p.lead {
   font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
   color: var(--teal);
 }
-.tile h3 { font-size: 22px; margin-top: 12px; margin-bottom: 10px; font-weight: 500; }
+.tile h3 { font-size: 22px; margin-top: 12px; margin-bottom: 10px; font-weight: 600; }
 .tile p {
-  font-family: 'Fraunces', serif; font-weight: 400;
+  font-family: 'Fraunces', serif; font-weight: 500;
   color: var(--mute); font-size: 15px; line-height: 1.55;
 }
 .tile .arrow {
@@ -488,11 +488,11 @@ p.lead {
   margin-left: auto; margin-right: auto;
 }
 .credit-band .eyebrow { color: var(--gold-soft); }
-.credit-band h2 { color: var(--paper); margin: 14px 0 22px; font-weight: 300; }
-.credit-band h2 em { color: var(--gold-soft); font-style: italic; }
+.credit-band h2 { color: var(--paper); margin: 14px 0 22px; font-weight: 600; }
+.credit-band h2 em { color: var(--gold-soft); font-style: italic; font-weight: 600; }
 .credit-band p {
-  font-family: 'Fraunces', serif; font-weight: 300;
-  color: rgba(255,253,247,0.78); font-size: 19px;
+  font-family: 'Fraunces', serif; font-weight: 500;
+  color: rgba(255,253,247,0.85); font-size: 19px;
   max-width: 60ch; margin: 0 auto 32px; line-height: 1.55;
 }
 .credit-band .btn-ghost { color: var(--paper); border-color: rgba(255,253,247,0.55); }
@@ -518,8 +518,8 @@ p.lead {
   font-size: 12px; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500;
 }
 .foot-grid a {
-  color: rgba(255,253,247,0.7);
-  font-family: 'Fraunces', serif; font-weight: 300;
+  color: rgba(255,253,247,0.78);
+  font-family: 'Fraunces', serif; font-weight: 500;
   font-size: 16px; display: block; padding: 6px 0;
   letter-spacing: -0.005em;
 }
@@ -528,12 +528,12 @@ p.lead {
 .foot-brand img { height: 56px; width: auto; }
 .foot-brand-text {
   color: var(--paper); font-family: 'Fraunces', serif;
-  font-weight: 400; font-size: 18px; letter-spacing: -0.01em;
+  font-weight: 600; font-size: 18px; letter-spacing: -0.01em;
 }
 .foot-brand-text em { font-style: italic; color: var(--gold-soft); }
 .foot-blurb {
-  font-family: 'Fraunces', serif; font-weight: 300;
-  color: rgba(255,253,247,0.6); font-size: 16px; line-height: 1.6;
+  font-family: 'Fraunces', serif; font-weight: 500;
+  color: rgba(255,253,247,0.7); font-size: 16px; line-height: 1.6;
   max-width: 38ch;
 }
 .foot-bottom {
@@ -566,13 +566,13 @@ p.lead {
 .page-hero .eyebrow { color: var(--gold-soft); }
 .page-hero h1 {
   color: var(--paper); margin: 18px 0 22px;
-  max-width: 20ch; font-weight: 300;
+  max-width: 20ch; font-weight: 600;
   font-size: clamp(48px, 7vw, 88px);
 }
-.page-hero h1 em { color: var(--gold-soft); font-style: italic; }
+.page-hero h1 em { color: var(--gold-soft); font-style: italic; font-weight: 600; }
 .page-hero p {
-  font-family: 'Fraunces', serif; font-weight: 300;
-  color: rgba(255,253,247,0.82); max-width: 60ch; font-size: 20px; line-height: 1.55;
+  font-family: 'Fraunces', serif; font-weight: 500;
+  color: rgba(255,253,247,0.88); max-width: 60ch; font-size: 20px; line-height: 1.55;
 }
 
 /* Two column content */
@@ -583,7 +583,7 @@ p.lead {
 .two-col h2 em { color: var(--red); font-style: italic; }
 .two-col p {
   margin-bottom: 22px;
-  font-family: 'Fraunces', serif; font-weight: 400;
+  font-family: 'Fraunces', serif; font-weight: 500;
   color: var(--ink-2); font-size: 19px; line-height: 1.65;
 }
 .fact-card {
@@ -672,12 +672,12 @@ p.lead {
 .join-card > * { position: relative; z-index: 1; }
 .join-card h2 {
   color: var(--paper); font-size: clamp(40px, 5.4vw, 64px);
-  margin-bottom: 22px; font-weight: 300;
+  margin-bottom: 22px; font-weight: 600;
 }
-.join-card h2 em { color: var(--gold-soft); font-style: italic; }
+.join-card h2 em { color: var(--gold-soft); font-style: italic; font-weight: 600; }
 .join-card p {
-  font-family: 'Fraunces', serif; font-weight: 300;
-  color: rgba(255,253,247,0.82); max-width: 60ch;
+  font-family: 'Fraunces', serif; font-weight: 500;
+  color: rgba(255,253,247,0.88); max-width: 60ch;
   margin: 0 auto 36px; font-size: 20px; line-height: 1.55;
 }
 .join-card .btn {
